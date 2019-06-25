@@ -13,9 +13,7 @@ struct node
 
 };
 
-
 node*temp,*start=NULL,*last=NULL;
-
 
 void creation();
 void deletion();
@@ -71,7 +69,6 @@ void creation()
 
  {
 
-
 	temp= (node*)malloc(sizeof(node));
 
 	printf(" ENTER THE CONSUMER ID : ");
@@ -88,14 +85,12 @@ void creation()
     	start=last=temp;
 	}
 
-
     else
 	{
 		 temp->next=start;
 		 start->prev=temp;
 
 		 start=temp;
-
 
 	}
 
@@ -112,8 +107,6 @@ void deletion()
 	if(start==NULL)
 	{
 		printf(" NO DATA TO DELETE");
-
-
 	}
 
 	else
@@ -127,13 +120,9 @@ void deletion()
      	temp2=temp;
 
         temp=temp->next;
-
-
 	 }
 
     temp2->next=NULL;
-
-
   }
 
 
