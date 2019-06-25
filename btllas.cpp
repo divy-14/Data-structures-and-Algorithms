@@ -16,7 +16,6 @@ btnode*root=NULL;
     int countx =1;
 
 
-
 #define count 10
 
 btnode*insert(btnode*,int);
@@ -41,18 +40,18 @@ int main()
     switch(ch)
     {
 
-        case 1 : 
+        case 1 :
 				 while(ch1==1)
 		          {
-		          	
+
 				   printf(" ENTER THE VALUE OF THE DATA TO BE STORED ");
                    scanf("%d",&digit);
 
-                  
+
 
                      root = insert(root,digit);
 
-                    
+
                     printf("want to enter more(0/1) ");
                     scanf("%d",&ch1);
 
@@ -61,12 +60,12 @@ int main()
                   }
 
                  continue;
-                   
+
 
           case 2 : rootdisp(root);
 
 
- 
+
 
     }
 
@@ -83,7 +82,7 @@ int main()
 
 btnode*insert(btnode*p,int data)
 {
-    
+
    if(p==NULL)
    {
 
@@ -93,8 +92,8 @@ btnode*insert(btnode*p,int data)
 
       p->left=NULL;
       p->right=NULL;
-   
-   
+
+
       countx++;
 
    }
@@ -147,7 +146,7 @@ void display(btnode*p,int space )
       printf(" ");
 
     printf("%d",p->data);
-    
+
     display(p->right,space );
 
 
