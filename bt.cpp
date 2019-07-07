@@ -41,14 +41,13 @@ int main()
 			case 2: rootdisp(root);
 			        break;
 
-
 			case 3: exit(0);
 
 
 	  }
 
 	}
-	
+
 	return 0;
 }
 
