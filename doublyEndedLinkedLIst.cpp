@@ -125,7 +125,6 @@ void deletion()
     temp2->next=NULL;
   }
 
-
 }
 
 void display()
