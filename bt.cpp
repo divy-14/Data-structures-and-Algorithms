@@ -8,7 +8,7 @@ struct btnode
 
 	int data;
 	struct btnode*left;
-    struct btnode*right;
+  struct btnode*right;
 
 };
 
