@@ -9,6 +9,7 @@ struct btnode
 	int data;
 	struct btnode*left;
   struct btnode*right;
+	
 
 };
 
