@@ -13,7 +13,7 @@ struct btnode{
 btnode*root=NULL;
 
 
-    int countx =1;
+int countx =1;
 
 
 #define count 10
