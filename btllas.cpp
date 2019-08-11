@@ -62,17 +62,9 @@ int main()
 
           case 2 : rootdisp(root);
 
-
-
-
     }
 
-
-
    }
-
-
-
 
     return 0;
 }
