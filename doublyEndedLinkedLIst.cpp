@@ -127,7 +127,6 @@ void deletion()
 
 }
 
-
 void display()
 {
 	temp=start;
